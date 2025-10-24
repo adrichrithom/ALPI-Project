@@ -3,7 +3,9 @@ ALPI is a open-source game console you can easily build yourself with a few very
 You are encouraged to further modify, programm and expand ALPI and to build your own console :)
 
 # CAD and 3D Printing
-in the folder 3D you will find the files for CAD and 3D printing
+in the folder 3D you will find the files for CAD and 3D printing  
+use the .3mf for printing amd print with supports  
+online cad : .[link](https://cad.onshape.com/documents/39b12044c60763b5ad47779b/w/a6fd5acc249a27e230aecf9f/e/9c9a9dd8f13f00d33f39c59e)
 ![CAD_IMAGE](README/CAD_CASE.png)
 
 
