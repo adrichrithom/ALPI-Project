@@ -1,2 +1,24 @@
 # ALPI-Project
-ALPI is a open-source game console you can easily build yourself with a few very cheap components
+ALPI is a open-source game console you can easily build yourself with a few very cheap components  
+You are encouraged to further modify, programm and expand ALPI and to build your own console :)
+
+# CAD and 3D Printing
+in the folder 3D you will find the files for CAD and 3D printing
+![CAD_IMAGE](README/CAD_CASE.png)
+
+
+# Parts List
+
+You will need more Parts like cable, heatsetinserts and all the tools e.g. soldering iron, screwdriver.
+THESE ARE ONLY THE MAIN PARTS
+
+| Component                                   | Link                                                                                          | Price     |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------|-----------|
+| Raspberry Pi Pico                           | [berrybase  ](https://www.berrybase.de/raspberry-pi-pico-rp2040-mikrocontroller-board)        | 3,39 €    |
+| Alphanumerisches LCD 16x2 with I2C Backpack | [berrybase  ](https://www.berrybase.de/alphanumerisches-lcd-16x2-blau-weiss-mit-i2c-backpack) | 3,90 €    |
+| Kurzhubtaster,6x6mm, H 5,0mm                | [berrybase  ](https://www.berrybase.de/kurzhubtaster-vertikale-printmontage-6x6mm-h-5-0mm)    | 0,09 €    |
+
+# WIRING
+You can change ALL GPIO Pins but be sure to <span style="color:red">ALSO CHANGE THE PINS IN THE SOFTWARECONFIG!</span>  
+If you wire all the Pins like shown do not change the pin config.
+![LAYOUT](README/ALPI_Layout.png)
