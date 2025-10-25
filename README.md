@@ -34,6 +34,20 @@ If you wire all the Pins like shown do not change the pin config.
 ![LAYOUT](IMAGES/ALPI_Layout.png)
 
 # Assembly
-placeholder
+- First solder everything as shown in [Wiring](#wiring) beaware that the buttons need longer cables
+- Press 4 heatset inserts into the cylinders on the bottom part of the case
+- Press 2 heatset inserts into the side of the button holders
+- Place the raspberry pi pico onto it´s holder on the bottom part of the case
+- Screw 4 16mm screws trough the display holder
+- Place the display onto the display holder beaware of the correct display orientation
+- Place the buttons into their holders and screw them in with 2 8mm screws
+- Put the top part with the display and align the screws with the heatset inserts of the bottom
+- Screw the top to the bottom and you are finished :)
 
 # Software
+
+- Download [Thonny](https://thonny.org)
+- Connect the console via USB and install micropython via the interpreter configuration
+- View -> Files to show the data system
+- Upload the 3 python files to the pico
+- finished your console is ready to game :)
