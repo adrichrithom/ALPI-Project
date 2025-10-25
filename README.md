@@ -43,6 +43,7 @@ If you wire all the Pins like shown do not change the pin config.
 - Place the buttons into their holders and screw them in with 2 8mm screws
 - Put the top part with the display and align the screws with the heatset inserts of the bottom
 - Screw the top to the bottom and you are finished :)
+![alpiconsole](IMAGES/alpiconsole.png)
 
 # Software
 
