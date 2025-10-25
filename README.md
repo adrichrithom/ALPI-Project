@@ -6,7 +6,7 @@ You are encouraged to further modify, programm and expand ALPI and to build your
 In the folder 3D you will find the files for CAD and 3D printing.  
 Use the .3mf for printing and print with supports.  
 online cad : [link](https://cad.onshape.com/documents/39b12044c60763b5ad47779b/w/a6fd5acc249a27e230aecf9f/e/9c9a9dd8f13f00d33f39c59e)
-![CAD_IMAGE](README/CAD_CASE.png)
+![CAD_IMAGE](IMAGES/CAD_CASE.png)
 
 
 # Parts List
@@ -23,4 +23,4 @@ THESE ARE ONLY THE MAIN PARTS
 # WIRING
 You can change ALL GPIO Pins but be sure to <span style="color:red">ALSO CHANGE THE PINS IN THE SOFTWARECONFIG!</span>  
 If you wire all the Pins like shown do not change the pin config.
-![LAYOUT](README/ALPI_Layout.png)
+![LAYOUT](IMAGES/ALPI_Layout.png)
