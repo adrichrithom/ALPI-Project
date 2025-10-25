@@ -35,6 +35,7 @@ If you wire all the Pins like shown do not change the pin config.
 
 # Assembly
 - First solder everything as shown in [Wiring](#wiring) beaware that the buttons need longer cables
+- There is a small potentiometer at the back of the display on the i2c module. Turn it with a screwdriver while powered on until the boxes are showing slightly.
 - Press 4 heatset inserts into the cylinders on the bottom part of the case
 - Press 2 heatset inserts into the side of the button holders
 - Place the raspberry pi pico onto it´s holder on the bottom part of the case
