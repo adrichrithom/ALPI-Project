@@ -1,6 +1,8 @@
 ########### ALPI PROJECT ############
 #           by adriastas            #
 
+# ALPIos v0.02 Beta
+
 
 import time
 from machine import Pin
@@ -41,7 +43,9 @@ col2= 15
 #I2C SETUP | The I2C_ADDR will be set automaticly DO NOT CHANGE!
 
 i2c = I2C(0, sda=sdapin, scl=sclpin, freq=400000)
-I2C_ADDR     = hex(i2c.scan())
+print(i2c.scan()[0])
+I2C_ADDR     = i2c.scan()[0] # Automatic i2c detection
+#I2C_ADDR     = 0x3F #(Set custom ADDR)
 
 #DISPLAY SETUP
 I2C_NUM_ROWS = 2
@@ -54,7 +58,7 @@ lcd.move_to(5, 0)
 lcd.putstr("ALPIos")
 time.sleep(0.05)
 lcd.move_to(3, 1)
-lcd.putstr("v0.01 Beta")
+lcd.putstr("v0.02 Beta")
 time.sleep(1)
 lcd.clear()
 lcd.move_to(3, 0)
@@ -580,4 +584,5 @@ while True:
                 lcd.move_to(0, 0)
                 lcd.putstr("nothing pressed")
                 pressed = False
+
 
