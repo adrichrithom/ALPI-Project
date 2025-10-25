@@ -16,14 +16,17 @@ online cad : [link](https://cad.onshape.com/documents/39b12044c60763b5ad47779b/w
 
 # Parts List
 
-You will need more Parts like cable, heatsetinserts and all the tools e.g. soldering iron, screwdriver.
+You will need more Parts like cable and all the tools e.g. soldering iron, screwdriver.
 THESE ARE ONLY THE MAIN PARTS
 
-| Component                                   | Link                                                                                          | Price     |
+| Component                                   | Link                                                                                          | Price per Piece |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------|-----------|
 | Raspberry Pi Pico                           | [berrybase  ](https://www.berrybase.de/raspberry-pi-pico-rp2040-mikrocontroller-board)        | 3,39 €    |
 | Alphanumerisches LCD 16x2 with I2C Backpack | [berrybase  ](https://www.berrybase.de/alphanumerisches-lcd-16x2-blau-weiss-mit-i2c-backpack) | 3,90 €    |
-| Kurzhubtaster,6x6mm, H 5,0mm                | [berrybase  ](https://www.berrybase.de/kurzhubtaster-vertikale-printmontage-6x6mm-h-5-0mm)    | 0,09 €    |
+| 2x Button ,6x6mm, H 5,0mm                | [berrybase  ](https://www.berrybase.de/kurzhubtaster-vertikale-printmontage-6x6mm-h-5-0mm)    | 0,09 €    |
+| 6x M3 Heatset inserts | [aliexpress](https://de.aliexpress.com/item/1005002897983868.html) | 0,04€ |
+| 4x M3 Screw 16mm | [aliexpress](https://de.aliexpress.com/item/4000026671295.html) | 0,05€ |
+| 2x M3 Screw 8mm | [aliexpress](https://de.aliexpress.com/item/4000026671295.html) | 0,05€ |
 
 # Wiring
 You can change ALL GPIO Pins but be sure to <span style="color:red">ALSO CHANGE THE PINS IN THE SOFTWARECONFIG!</span>  
